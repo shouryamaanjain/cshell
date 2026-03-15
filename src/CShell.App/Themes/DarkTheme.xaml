@@ -1,0 +1,28 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- cmux accent blue: RGB(0, 145, 255) -->
+    <Color x:Key="AccentColor">#0091FF</Color>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+
+    <!-- Sidebar -->
+    <Color x:Key="SidebarBackgroundColor">#1A1A1A</Color>
+    <SolidColorBrush x:Key="SidebarBackgroundBrush" Color="{StaticResource SidebarBackgroundColor}" />
+    <SolidColorBrush x:Key="SidebarTitleForeground" Color="#E0E0E0" />
+    <SolidColorBrush x:Key="SidebarDimForeground" Color="#808080" />
+    <SolidColorBrush x:Key="SidebarNotificationForeground" Color="#A0A0A0" />
+    <SolidColorBrush x:Key="SidebarHoverBrush" Color="#2A2A2A" />
+    <SolidColorBrush x:Key="SidebarSelectedBrush" Color="#333333" />
+
+    <!-- Terminal -->
+    <Color x:Key="TerminalBackgroundColor">#1E1E1E</Color>
+    <SolidColorBrush x:Key="TerminalBackgroundBrush" Color="{StaticResource TerminalBackgroundColor}" />
+    <SolidColorBrush x:Key="TerminalForegroundBrush" Color="#DDDDDD" />
+
+    <!-- Chrome -->
+    <Color x:Key="TitleBarColor">#141414</Color>
+    <SolidColorBrush x:Key="TitleBarBrush" Color="{StaticResource TitleBarColor}" />
+    <SolidColorBrush x:Key="DividerBrush" Color="#333333" />
+
+</ResourceDictionary>
