@@ -1,6 +1,6 @@
-# Contributing to cshell
+# Contributing to wmux
 
-Thanks for your interest in contributing to cshell!
+Thanks for your interest in contributing to wmux!
 
 ## Prerequisites
 
@@ -13,26 +13,26 @@ Thanks for your interest in contributing to cshell!
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/cshell.git
-   cd cshell
+   git clone https://github.com/YOUR-USERNAME/wmux.git
+   cd wmux
    ```
 3. Build:
    ```bash
-   dotnet build src/CShell.App/CShell.App.csproj -c Debug -p:Platform=x64
+   dotnet build src/Wmux.App/Wmux.App.csproj -c Debug -p:Platform=x64
    ```
 4. Run:
    ```bash
-   dotnet run --project src/CShell.App/CShell.App.csproj
+   dotnet run --project src/Wmux.App/Wmux.App.csproj
    ```
 
 ## Project structure
 
 | Project | Description |
 |---------|-------------|
-| `CShell.Core` | Terminal engine — ConPTY, VT parser, buffer, models. No UI dependencies. |
-| `CShell.Services` | Application services — workspace management, persistence. |
-| `CShell.App` | WinUI 3 application — window, sidebar, terminal canvas renderer. |
-| `CShell.Cli` | CLI tool (planned) — named pipe client for controlling cshell. |
+| `Wmux.Core` | Terminal engine — ConPTY, VT parser, buffer, models. No UI dependencies. |
+| `Wmux.Services` | Application services — workspace management, persistence. |
+| `Wmux.App` | WinUI 3 application — window, sidebar, terminal canvas renderer. |
+| `Wmux.Cli` | CLI tool (planned) — named pipe client for controlling wmux. |
 
 ## Development workflow
 

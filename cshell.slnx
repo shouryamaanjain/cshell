@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/CShell.App/CShell.App.csproj" />
-    <Project Path="src/CShell.Cli/CShell.Cli.csproj" />
-    <Project Path="src/CShell.Core/CShell.Core.csproj" />
-    <Project Path="src/CShell.Services/CShell.Services.csproj" />
-  </Folder>
-</Solution>

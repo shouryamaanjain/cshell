@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug in cshell
+about: Report a bug in wmux
 title: ''
 labels: bug
 assignees: ''
@@ -11,7 +11,7 @@ A clear description of what the bug is.
 
 **To reproduce**
 Steps to reproduce the behavior:
-1. Open cshell
+1. Open wmux
 2. Do '...'
 3. See error
 
@@ -24,5 +24,5 @@ If applicable, add screenshots.
 **Environment:**
 - Windows version: [e.g., Windows 11 23H2]
 - .NET SDK version: [e.g., 8.0.419]
-- cshell version: [e.g., 0.1.0]
+- wmux version: [e.g., 0.1.0]
 - Shell: [e.g., PowerShell, CMD, WSL]

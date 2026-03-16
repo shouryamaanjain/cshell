@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a feature for cshell
+about: Suggest a feature for wmux
 title: ''
 labels: enhancement
 assignees: ''

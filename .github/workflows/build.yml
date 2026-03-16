@@ -23,10 +23,10 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore
-        run: dotnet restore cshell.sln
+        run: dotnet restore wmux.sln
 
       - name: Build
-        run: dotnet build src/CShell.App/CShell.App.csproj -c ${{ matrix.configuration }} -p:Platform=${{ matrix.platform }} --no-restore
+        run: dotnet build src/Wmux.App/Wmux.App.csproj -c ${{ matrix.configuration }} -p:Platform=${{ matrix.platform }} --no-restore
 
   release:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
@@ -44,13 +44,13 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Publish
-        run: dotnet publish src/CShell.App/CShell.App.csproj -c Release -p:Platform=x64 -o publish
+        run: dotnet publish src/Wmux.App/Wmux.App.csproj -c Release -p:Platform=x64 -o publish
 
       - name: Create release artifact
-        run: Compress-Archive -Path publish/* -DestinationPath cshell-win-x64.zip
+        run: Compress-Archive -Path publish/* -DestinationPath wmux-win-x64.zip
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cshell-win-x64
-          path: cshell-win-x64.zip
+          name: wmux-win-x64
+          path: wmux-win-x64.zip

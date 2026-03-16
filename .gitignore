@@ -29,3 +29,5 @@ desktop.ini
 *.dmg
 *.exe
 !src/**/*.exe
+publish-single/
+publish/
